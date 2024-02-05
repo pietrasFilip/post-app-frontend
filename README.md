@@ -4,7 +4,7 @@ This is frontend project for backend application called post-app-backend.
 
 # How to run?
 
-Open terminal inside this project directory, then perform above command:
+Open terminal inside this project directory, then perform below command:
 ```
 docker-compose up -d --build
 ```
