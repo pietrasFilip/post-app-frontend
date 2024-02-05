@@ -1,6 +1,6 @@
 # post-web-app-frontend
 
-This if frontend project for backend application called post-app-backend.
+This is frontend project for backend application called post-app-backend.
 
 # How to run?
 
