@@ -18,7 +18,7 @@ services:
     networks:
       - post-network
     volumes:
-      - "mysql_post:/var/lib/mysql"
+      - post:/var/lib/mysql
     healthcheck:
       test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
       timeout: 5s
@@ -36,7 +36,6 @@ services:
         condition: service_healthy
 
 volumes:
-  mysql_post:
-  post_web_app:
+  post:
 networks:
   post-network:
