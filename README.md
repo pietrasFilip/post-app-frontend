@@ -4,6 +4,7 @@ This is frontend project for backend application called post-app-backend.
 
 # How to run?
 
+Fill missing data for database in `docker-compose.yml`.
 Open terminal inside this project directory, then perform below command:
 ```
 docker-compose up -d --build
